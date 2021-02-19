@@ -9,8 +9,8 @@ const HeroSection = () => {
         <>
         <Navbar />
         <div className='hero-container'>
-           <video src="/video/video-1.mp4"  autoPlay loop muted/>
-           <h1>ADVENTURE AWAITW</h1>
+           <video src="/video/video-2.mp4"  autoPlay loop muted/>
+           <h1>ADVENTURE AWAIT</h1>
            <p>What are you waiting for ? </p>
            <div className="hero-btns">
                <Button 
