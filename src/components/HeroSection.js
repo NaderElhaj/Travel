@@ -2,9 +2,12 @@ import React from 'react'
 import '../App.css'
 import { Button } from './Button'
 import './HeroSection.css'
+import Navbar from './Navbar'
 
 const HeroSection = () => {
     return (
+        <>
+        <Navbar />
         <div className='hero-container'>
            <video src="/video/video-1.mp4"  autoPlay loop muted/>
            <h1>ADVENTURE AWAITW</h1>
@@ -13,7 +16,7 @@ const HeroSection = () => {
                <Button 
                className="btns" 
                buttonStyle="btn--outline"
-               buttonSize="btn--large">GetStarted</Button>
+               buttonSize="btn--large">Get Started</Button>
                <Button 
                className="btns" 
                buttonStyle="btn--primary"
@@ -23,6 +26,7 @@ const HeroSection = () => {
            </div>
 
         </div>
+        </>
     )
 }
 
