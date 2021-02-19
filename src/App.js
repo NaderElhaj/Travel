@@ -2,6 +2,7 @@ import "./App.css";
 import React , {useState} from 'react';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
 
 
 function App() {
@@ -9,9 +10,7 @@ function App() {
     <>
      <Router>
       <Navbar />
-        <Switch>
-          <Route path='/' exact />
-        </Switch>
+        <HeroSection />
      </Router>
       
     </>
